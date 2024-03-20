@@ -1,0 +1,15 @@
+[package]
+name = "mdbook-chapter-zero"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "A mdBook preprocessor that allows 0th (sub-)chapter"
+
+[dependencies]
+mdbook = { version = "0.4.37", default-features = false }
+clap = { version = "4.5.3", default-features = false }
+semver = "1.0.22"
+serde_json = "1.0.114"
+toml = "0.5.11"
+log = "0.4.21"
+
