@@ -10,9 +10,9 @@ This preprocessor allows you to have possibly nested (sub-)chapter 0.
 
 ## Installation
 
-This preprocessor can currently only be installed from source:
+This preprocessor can be installed with:
 ```bash
-cargo install --git https://github.com/xmiaocat/mdbook-chapter-zero
+cargo install mdbook-chapter-zero
 ```
 
 Afterwards, add it to your `book.toml`:
